@@ -1,0 +1,15 @@
+
+body{
+
+    margin: 0;
+    padding:0;
+}
+.container{
+    display:flex;
+}
+
+.img{
+    background-image:url(/Assets/images/moving\ 1.png)
+    height= 300px;
+
+}
