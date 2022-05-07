@@ -1,15 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Nunito:ital,wght@0,300;1,200&family=Poppins:wght@200&display=swap');
 
-
-
-
-
-body{
-
+*{
+    box-sizing: border-box;
     margin: 0;
-    padding:0;
+    padding: 0;
 
 }
 
+,header{
+    display:flex;
+}
+li a{
+    font-weight: 500;
+    font-size: 14px;
+    color: #edf0f1;
+    text-decoration:none;
+}
+.navlinks{
+
+    display: flex;
+    padding: 5px 180px;
+}
+.navlinks li{
+    
+    padding:35px 40px;
+    text-align:right
+}
+.navlinks li a{
+    transition: all 0.3s ease-out 0s;
+    position:relative;
+    
+    right: -900px;
+
+}
+.navlinks li a:hover {
+    color: blueviolet;
+
+
+}
+button{
+    background-color:#FFAC12;
+    padding: 9px 25px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-out 0s;
+
+}
+button:hover{
+    color: palevioletred;
+}
+
+body{ 
+
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 10px;
+    margin-right: 10px;
+
+}
 .moving{
     background-image: url(../images/moving\ 1.png);
     min-height: 500px;
@@ -24,13 +84,17 @@ body{
     width:auto;
 
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-nav ul li{
-    display: inline-block;
-    padding-left: 10px;
-    margin-right: 10px;
 
+.bigtop{
+    font-size: xxx-large;
+    font-weight: 100;
+    color:#FAFF00;
+    padding-left: 20px;
+}
+.smalltop{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size:x-large;
+    font-weight: 100;
+    color: whitesmoke;
 }
