@@ -7,7 +7,7 @@
 
 }
 
-,header{
+.header{
     display:flex;
 }
 li a{
@@ -97,4 +97,36 @@ nav ul li{
     font-size:x-large;
     font-weight: 100;
     color: whitesmoke;
+}
+
+.container2{
+    display: flex;
+}
+
+.movin{
+
+    padding-top: 50px;
+}
+
+.wordings{
+    padding-top: 200px;
+    padding-left: 750px;
+
+
+} 
+.wordings h1{
+    padding-bottom: 10px;
+    font-size: xx-large;
+}
+.wordings p{
+    font-weight: 100px;
+    padding-bottom: 15px;
+    font-size: medium;
+}
+.wordings button{
+    border-top-right-radius: 1.2rem;
+    background-color: black;
+    
+
+
 }
