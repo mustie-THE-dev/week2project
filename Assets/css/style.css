@@ -275,7 +275,20 @@ nav ul li{
     font-weight: 500;
 }
 
+.newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .clmn{
+    
+    padding-left: 100px;
+    
 
+  }
     
     
     
