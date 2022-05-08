@@ -281,37 +281,7 @@ nav ul li{
     padding-bottom: 20px;
     font-weight: 500;
 }
-.facebook::before {
-    font-family: "font awesome 5 free";
-    font-weight: 900;
-    content: "\f09a";
-   font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }
-   .twitter::before {
-    font-family: "font awesome 5 free";
-    font-weight: 900;
-    content: "\f099";
-   font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }
-   .twitter::before {
-    font-family: "font awesome 5 free";
-    font-weight: 900;
-    content: "\f099";
-   font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }.instagram::before {
-    font-family: "font awesome 5 free";
-    font-weight: 900;
-    content: "\f16d";
-   font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }
+
 .h4{
     font-family:'Adamina', serif;}
 p{
@@ -325,3 +295,55 @@ p{
         padding-top: 20px;
         font-weight: 500;
 }
+.facebook::before {
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    content: "\f082";
+   font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+   }
+.twitter::before {
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    content: "\"f099";
+   font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+   }
+.twitter::before {
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    content: "\f16d";
+   font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+   }
+   .newspaper {
+    column-count: 4;
+    background-color: black;
+    color: #edf0f1;
+    column-gap: 10px;
+    padding-left: 250px;
+    padding-bottom:100px;
+    margin-top:2px;
+    border-radius: 0.9rem;
+ 
+  }
+  .newspaper p{
+      font-weight:bolder;
+      font-size: x-large;
+  }
+  .newspaper br{
+      font-weight: lighter;
+  }
+  .header2{
+      padding-top: 40px;
+      padding-bottom: 100px;
+      
+  }
+  
+
+
+  
+    
