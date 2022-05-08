@@ -1,0 +1,51 @@
+*{ list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(12, 12, 12);
+}
+.navbar ul{
+    padding-top: 80px;
+    margin-left: 30px;
+}
+div ul li{
+    display: inline;
+    margin-inline: 25px;
+}
+div ul li a{
+    color: white;
+    font-size: large;
+    position: relative;
+    left: 900px;
+    background-color: black;
+}
+div ul li a:hover{
+    color: purple;
+}
+.button{
+    background-color: yellow;
+    padding: 10px;
+    border-top-right-radius: 1.3rem;
+    color: black;
+    
+}
+.modern{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 60px;
+}
+#id{
+    background-color: black;
+}
+.property{
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.colum{
+    
+}
