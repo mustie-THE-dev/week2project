@@ -6,7 +6,10 @@
     padding: 0;
 
 }
+.body{
+    font-family: 'Adamina', serif;
 
+}
 .header{
     display:flex;
 }
@@ -38,6 +41,11 @@ li a{
 
 
 }
+.but1:hover{
+    color:red;
+    cursor: pointer;
+    transition: all 0.3s ease-out 0s;
+}
 button{
     background-color:#FFAC12;
     padding: 9px 25px;
@@ -45,7 +53,6 @@ button{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-out 0s;
-
 }
 button:hover{
     color: palevioletred;
@@ -274,22 +281,47 @@ nav ul li{
     padding-bottom: 20px;
     font-weight: 500;
 }
-
-.newspaper {
-    column-count: 3;
-    column-gap: 40px;
-    column-rule: 1px solid lightblue;
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
-  
-  .clmn{
-    
-    padding-left: 100px;
-    
-
-  }
-    
-    
-    
-
+.facebook::before {
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    content: "\f09a";
+   font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+   }
+   .twitter::before {
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    content: "\f099";
+   font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+   }
+   .twitter::before {
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    content: "\f099";
+   font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+   }.instagram::before {
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    content: "\f16d";
+   font-style: normal;
+     font-variant: normal;
+     text-rendering: auto;
+   }
+.h4{
+    font-family:'Adamina', serif;}
+p{
+        font-family:  'Poppins', sans-serif;
+    }
+    .header2{
+        background-color: black;
+        height: 100px;
+        padding-left: 100px;
+        font-size: xx-large;
+        padding-top: 20px;
+        font-weight: 500;
+}
