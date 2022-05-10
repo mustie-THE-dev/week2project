@@ -47,6 +47,7 @@ div ul li a:hover{
     top: 50px;
 }
 
+
 .column{
     padding-left: 80px;
     padding-top: 50px;
@@ -106,3 +107,18 @@ input[type=text], select {
 .master{
 display: flex;
 }
+
+.desc{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.column{
+    padding-left: 80px;
+    padding-top: 50px;
+
+
+}
+
+     
+
