@@ -1,64 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Nunito:ital,wght@0,300;1,200&family=Poppins:wght@200&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
-.body{
+
+.body {
     font-family: 'Adamina', serif;
 
 }
-.header{
-    display:flex;
+
+.header {
+    display: flex;
 }
-li a{
+
+li a {
     font-weight: 500;
     font-size: 14px;
     color: #edf0f1;
-    text-decoration:none;
+    text-decoration: none;
 }
-.navlinks{
+
+.navlinks {
 
     display: flex;
     padding: 5px 180px;
 }
-.navlinks li{
-    
-    padding:35px 40px;
-    text-align:right
+
+.navlinks li {
+
+    padding: 35px 40px;
+    text-align: right
 }
-.navlinks li a{
+
+.navlinks li a {
     transition: all 0.3s ease-out 0s;
-    position:relative;
-    
+    position: relative;
+
     right: -900px;
 
 }
+
 .navlinks li a:hover {
     color: blueviolet;
 
 
 }
-.but1:hover{
-    color:red;
+
+.but1:hover {
+    color: red;
     cursor: pointer;
     transition: all 0.3s ease-out 0s;
 }
-button{
-    background-color:#FFAC12;
+
+button {
+    background-color: #FFAC12;
     padding: 9px 25px;
-    border:none;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-out 0s;
 }
-button:hover{
+
+button:hover {
     color: palevioletred;
 }
 
-body{ 
+body {
 
     width: 100%;
     height: auto;
@@ -67,17 +77,19 @@ body{
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     padding-left: 10px;
     margin-right: 10px;
 
 }
-.moving{
+
+.moving {
     background-image: url(../images/moving\ 1.png);
     min-height: 500px;
     background-position: center;
@@ -85,265 +97,320 @@ nav ul li{
     background-size: cover;
     position: relative;
 }
-.container{
+
+.container {
     position: absolute;
     margin: 30;
-    width:auto;
+    width: auto;
 
 }
 
-.bigtop{
+.bigtop {
     font-size: xxx-large;
     font-weight: 100;
-    color:#FAFF00;
+    color: #FAFF00;
     padding-left: 20px;
 }
-.smalltop{
+
+.smalltop {
     padding-top: 30px;
     padding-left: 20px;
-    font-size:x-large;
+    font-size: x-large;
     font-weight: 100;
     color: whitesmoke;
 }
 
-.container2{
+.container2 {
     display: flex;
 }
 
-.movin{
+.movin {
 
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
-.wordings{
+.movin img {
+    width: 70%;
+}
+
+.wordings hr {
+    border: none;
+    width: 105px;
+    background-image: linear-gradient(to right, yellow, black);
+    height: 3px;
+    margin-bottom: 30px;
+}
+
+.wordings {
     padding-top: 200px;
-    padding-left: 700px;
+    padding-left: 70px;
     line-height: 2;
-    
 
 
-} 
-.wordings h1{
+
+}
+
+.wordings h1 {
     padding-bottom: 29px;
     font-size: xx-large;
     list-style: none;
     line-height: 2px;
-    
-    
+
+
 }
-.wordings p{
+
+.wordings p {
     font-weight: 100px;
     padding-bottom: 15px;
     font-size: medium;
 }
-.wordings button{
+
+.wordings button {
     border-top-right-radius: 1.2rem;
     background-color: black;
 }
-.bcg{
+
+.bcg {
     background-color: rgb(243, 245, 245);
 }
-.hdr{
+
+.hdr h2{
+    padding-top: 80px;
+}
+
+.hdr {
     padding-left: 200px;
     padding-bottom: 100px;
     font-size: x-large;
     font-weight: 300;
 
+
 }
 
 
-  .shower::before {
-   font-family: "font awesome 5 free";
-   font-weight: 900;
-   content: "\f2cc";
-  font-style: normal;
+
+.shower::before {
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    content: "\f2cc";
+    font-style: normal;
     font-variant: normal;
     text-rendering: auto;
-  }
-  .truck::before {
+}
+
+.truck::before {
     font-family: "font awesome 5 free";
     font-weight: 900;
     content: "\f0d1";
 
-     font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }
-   .hash::before {
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.hash::before {
     font-family: "font awesome 5 free";
     font-weight: 900;
     content: "\23";
-   font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }
-.icons{
-    display:flex;
-    justify-content: space-around;
-    
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
 }
-.pics{
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pics {
     display: flex;
     justify-content: space-around;
 }
-.ehem{
+
+.ehem {
     padding-bottom: 45px;
-    background:rgb(247, 244, 244);
+    background: rgb(247, 244, 244);
     border-radius: 1rem;
-    
+
 }
-.A{
+
+.A {
     font-size: x-large;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
 }
 
 .truck {
     padding-left: 30px;
 }
-.shower{
+
+.shower {
     padding-left: 20px;
 }
-.hash{
+
+.hash {
     padding-left: 20px;
 }
-.wewe{ padding-bottom: 45px;
-    background:rgb(247, 244, 244);
-    border-radius: 1rem;
-    
-}
 
-
-.move{
+.wewe {
     padding-bottom: 45px;
-    background:rgb(247, 244, 244);
+    background: rgb(247, 244, 244);
     border-radius: 1rem;
-    
+
 }
-.M{font-size: large;
+
+
+.move {
+    padding-bottom: 45px;
+    background: rgb(247, 244, 244);
+    border-radius: 1rem;
+
+}
+
+.M {
+    font-size: large;
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 500;
-    
+
 
 }
-.U{font-size: x-large;
+
+.U {
+    font-size: x-large;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.chap{
+.chap {
     padding-bottom: 45px;
-    background:rgb(247, 244, 244);
+    background: rgb(247, 244, 244);
     border-radius: 1rem;
     padding-top: 10px;
     margin-right: 10px;
-    
-    
+
+
 
 }
-.mc{font-size: large;
-    padding-left:20px;
+
+.mc {
+    font-size: large;
+    padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 500;
 
 }
-.mashinani{ padding-bottom: 45px;
-    background:rgb(247, 244, 244);
+
+.mashinani {
+    padding-bottom: 45px;
+    background: rgb(247, 244, 244);
     border-radius: 1rem;
     padding-top: 10px;
     margin-right: 2px;
-    
+
 
 }
-.sm{font-size: large;
-    padding-left:30px;
+
+.sm {
+    font-size: large;
+    padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 500;
 }
-.upesi{padding-bottom: 45px;
-    background:rgb(247, 244, 244);
+
+.upesi {
+    padding-bottom: 45px;
+    background: rgb(247, 244, 244);
     border-radius: 1rem;
     padding-top: 10px;
     margin-right: 2px;
-    
+
 }
-.Up{font-size: large;
-    padding-left:30px;
+
+.Up {
+    font-size: large;
+    padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 500;
 }
 
-.h4{
-    font-family:'Adamina', serif;}
-p{
-        font-family:  'Poppins', sans-serif;
-    }
-    .header2{
-        background-color: black;
-        height: 100px;
-        padding-left: 100px;
-        font-size: xx-large;
-        padding-top: 20px;
-        font-weight: 500;
+.h4 {
+    font-family: 'Adamina', serif;
 }
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header2 {
+    background-color: black;
+    height: 100px;
+    padding-left: 100px;
+    font-size: xx-large;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
 .facebook::before {
     font-family: "font awesome 5 free";
     font-weight: 900;
     content: "\f082";
-   font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
 .twitter::before {
     font-family: "font awesome 5 free";
     font-weight: 900;
     content: "\"f099";
-   font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
 .twitter::before {
     font-family: "font awesome 5 free";
     font-weight: 900;
     content: "\f16d";
-   font-style: normal;
-     font-variant: normal;
-     text-rendering: auto;
-   }
-   .newspaper {
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.newspaper {
     column-count: 4;
     background-color: black;
     color: #edf0f1;
     column-gap: 10px;
     padding-left: 250px;
-    padding-bottom:100px;
-    margin-top:2px;
+    padding-bottom: 100px;
+    margin-top: 2px;
     border-radius: 0.9rem;
- 
-  }
-  .newspaper p{
-      font-weight:bolder;
-      font-size: x-large;
-  }
-  .newspaper br{
-      font-weight: lighter;
-  }
-  .header2{
-      padding-top: 40px;
-      padding-bottom: 100px;
-      
-  }
-  
 
+}
 
-  
-    
+.newspaper p {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.newspaper br {
+    font-weight: lighter;
+}
+
+.header2 {
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
