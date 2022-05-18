@@ -197,8 +197,9 @@ section.features {
     gap: 120px;
 }
 
-.condition img {
+.condition  {
     padding-right: 10px;
+    color: #FFAC12;
 }
 .topmovers {
     display: flex;
@@ -247,6 +248,7 @@ section.services {
     gap: 120px;
 
 }
+
 
 
 .box1 {
