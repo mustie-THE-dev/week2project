@@ -3,7 +3,7 @@ quick movers web page
 # Quick movers webpage
  ## By SIMON KAMAU
 ## Screenshot
- ![image](./Assets/images/Screenshot from 2022-05-08 22-48-54.png)
+
  ## Table of Content
  - [Description](#description)
  - [Features](#features)

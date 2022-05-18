@@ -123,6 +123,12 @@ nav ul li {
 .container2 {
     display: flex;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class="moving"] {
+      width: 100%;
+    }
+  }
 
 .movin {
 
@@ -414,3 +420,9 @@ p {
     padding-bottom: 100px;
 
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="container2"] {
+      width: 100%;
+    }
+  }
